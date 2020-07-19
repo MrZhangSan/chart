@@ -1,0 +1,3 @@
+rootProject.name='ChartDemo'
+include ':app'
+include ':chartlib'

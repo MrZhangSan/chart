@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.byk.chartlib.view.GroupChartView
+        android:id="@+id/chartView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.byk.chartlib.view.ScrollerableChartView
+            android:id="@+id/bcv_test"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="150dp"/>
+
+        <View
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/bcv_test"
+            android:layout_height="40dp"/>
+
+        <com.byk.chartlib.view.ScrollerableChartView
+            android:id="@+id/bcv_test2"
+            android:layout_below="@+id/text"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="150dp"/>
+
+        <com.byk.chartlib.view.ScrollerableChartView
+            android:id="@+id/bcv_test3"
+            android:layout_below="@+id/bcv_test2"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="150dp"/>
+    </com.byk.chartlib.view.GroupChartView>
+    <View
+        android:layout_width="30dp"
+        android:background="@color/colorAccent"
+        android:layout_height="40dp"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_gravity="right"
+        android:background="@color/colorAccent"
+        android:layout_height="40dp"/>
+</LinearLayout>
