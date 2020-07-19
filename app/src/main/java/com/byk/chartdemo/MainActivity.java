@@ -1,30 +1,25 @@
 package com.byk.chartdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.graphics.Matrix;
-import android.graphics.Path;
+
 import android.os.Bundle;
-import com.byk.chartlib.adapter.ChartAdapter;
-import com.byk.chartlib.bean.CandleEntry;
-import com.byk.chartlib.bean.Entry;
-import com.byk.chartlib.bean.LineEntry;
-import com.byk.chartlib.data.CandleDataSet;
-import com.byk.chartlib.data.LineDataSet;
-import com.byk.chartlib.draw.AxisDrawer;
-import com.byk.chartlib.draw.MarkerDrawer;
-import com.byk.chartlib.draw.XAxisDrawer;
-import com.byk.chartlib.draw.YAxisDrawer;
-import com.byk.chartlib.format.DateFormatterUtils;
-import com.byk.chartlib.listener.OnChartChangeListener;
-import com.byk.chartlib.marker.IMarker;
-import com.byk.chartlib.utils.DensityUtil;
-import com.byk.chartlib.utils.Tranformer;
-import com.byk.chartlib.view.ChartView;
-import com.byk.chartlib.view.GroupChartView;
+import com.byk.chart.adapter.ChartAdapter;
+import com.byk.chart.bean.CandleEntry;
+import com.byk.chart.bean.Entry;
+import com.byk.chart.bean.LineEntry;
+import com.byk.chart.data.CandleDataSet;
+import com.byk.chart.data.LineDataSet;
+import com.byk.chart.draw.AxisDrawer;
+import com.byk.chart.draw.XAxisDrawer;
+import com.byk.chart.draw.YAxisDrawer;
+import com.byk.chart.format.DateFormatterUtils;
+import com.byk.chart.listener.OnChartChangeListener;
+import com.byk.chart.utils.DensityUtil;
+import com.byk.chart.view.ChartView;
+import com.byk.chart.view.GroupChartView;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
